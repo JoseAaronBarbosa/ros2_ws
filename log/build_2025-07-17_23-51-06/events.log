@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.003117] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.003285] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.031129] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.034076] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/aaron/ros2_ws', '-DCMAKE_INSTALL_PREFIX=/home/aaron/ros2_ws/install/my_bot'], 'cwd': '/home/aaron/ros2_ws/build/my_bot', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'aaron', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2332', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/aaron', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.102.1', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\](onshape_to_robot_env) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'LC_MONETARY': 'es_MX.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/aaron/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/aaron/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'aaron', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/home/aaron/.local/bin:/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/home/aaron/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/aaron/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/aaron/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/AaronPC:@/tmp/.ICE-unix/2166,unix/AaronPC:/tmp/.ICE-unix/2166', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'es_MX.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0.0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/aaron/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f380a2f14ef9134e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/aaron/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3f22dfd38a.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-IVIgaL0PZiR8/agent.2331', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/aaron', 'AMENT_PREFIX_PATH': '/home/aaron/ros2_ws/install/my_bot:/opt/ros/kilted', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'XFCE', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/kilted/share', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '7', 'PWD': '/home/aaron/ros2_ws/build/my_bot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/home/aaron/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/opt/ros/kilted/lib/python3.12/site-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/aaron/ros2_ws/install/my_bot:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted'}), 'shell': False}
+[0.099665] (-) TimerEvent: {}
+[0.201082] (-) TimerEvent: {}
+[0.302908] (-) TimerEvent: {}
+[0.404446] (-) TimerEvent: {}
+[0.508658] (-) TimerEvent: {}
+[0.612387] (-) TimerEvent: {}
+[0.714174] (-) TimerEvent: {}
+[0.821081] (-) TimerEvent: {}
+[0.837364] (my_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.921232] (-) TimerEvent: {}
+[1.021816] (-) TimerEvent: {}
+[1.125087] (-) TimerEvent: {}
+[1.229181] (-) TimerEvent: {}
+[1.330655] (-) TimerEvent: {}
+[1.334570] (my_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.430818] (-) TimerEvent: {}
+[1.459533] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.533677] (-) TimerEvent: {}
+[1.638157] (-) TimerEvent: {}
+[1.738706] (-) TimerEvent: {}
+[1.839283] (-) TimerEvent: {}
+[1.941841] (-) TimerEvent: {}
+[2.042562] (-) TimerEvent: {}
+[2.152652] (-) TimerEvent: {}
+[2.254843] (-) TimerEvent: {}
+[2.355418] (-) TimerEvent: {}
+[2.461179] (-) TimerEvent: {}
+[2.467198] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.546982] (my_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.550332] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.550806] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.565738] (-) TimerEvent: {}
+[2.643025] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.670998] (-) TimerEvent: {}
+[2.774160] (-) TimerEvent: {}
+[2.876796] (-) TimerEvent: {}
+[2.978429] (-) TimerEvent: {}
+[3.080091] (-) TimerEvent: {}
+[3.183330] (-) TimerEvent: {}
+[3.286346] (-) TimerEvent: {}
+[3.389310] (-) TimerEvent: {}
+[3.444078] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.494395] (-) TimerEvent: {}
+[3.515639] (my_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.516254] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.528112] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.594866] (-) TimerEvent: {}
+[3.639487] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[3.695077] (-) TimerEvent: {}
+[3.795686] (-) TimerEvent: {}
+[3.898126] (-) TimerEvent: {}
+[4.004782] (-) TimerEvent: {}
+[4.105421] (-) TimerEvent: {}
+[4.205878] (-) TimerEvent: {}
+[4.308050] (-) TimerEvent: {}
+[4.408554] (-) TimerEvent: {}
+[4.449751] (my_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.508695] (-) TimerEvent: {}
+[4.610602] (-) TimerEvent: {}
+[4.712347] (-) TimerEvent: {}
+[4.802702] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)\n'}
+[4.812512] (-) TimerEvent: {}
+[4.913002] (-) TimerEvent: {}
+[5.014076] (-) TimerEvent: {}
+[5.114598] (-) TimerEvent: {}
+[5.201866] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.214764] (-) TimerEvent: {}
+[5.316184] (-) TimerEvent: {}
+[5.419585] (-) TimerEvent: {}
+[5.520155] (-) TimerEvent: {}
+[5.620689] (-) TimerEvent: {}
+[5.721139] (-) TimerEvent: {}
+[5.824083] (-) TimerEvent: {}
+[5.924555] (-) TimerEvent: {}
+[6.025219] (-) TimerEvent: {}
+[6.125812] (-) TimerEvent: {}
+[6.228100] (-) TimerEvent: {}
+[6.328613] (-) TimerEvent: {}
+[6.431271] (-) TimerEvent: {}
+[6.532218] (-) TimerEvent: {}
+[6.633794] (-) TimerEvent: {}
+[6.734904] (-) TimerEvent: {}
+[6.754784] (my_bot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.755164] (my_bot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.755448] (my_bot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.835114] (-) TimerEvent: {}
+[6.935745] (-) TimerEvent: {}
+[7.036522] (-) TimerEvent: {}
+[7.137224] (-) TimerEvent: {}
+[7.238020] (-) TimerEvent: {}
+[7.338868] (-) TimerEvent: {}
+[7.439708] (-) TimerEvent: {}
+[7.540273] (-) TimerEvent: {}
+[7.640894] (-) TimerEvent: {}
+[7.741638] (-) TimerEvent: {}
+[7.842336] (-) TimerEvent: {}
+[7.943148] (-) TimerEvent: {}
+[8.031436] (my_bot) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[8.032176] (my_bot) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[8.043376] (-) TimerEvent: {}
+[8.144092] (-) TimerEvent: {}
+[8.211196] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.211625] (my_bot) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[8.244325] (-) TimerEvent: {}
+[8.345058] (-) TimerEvent: {}
+[8.445844] (-) TimerEvent: {}
+[8.530543] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.546083] (-) TimerEvent: {}
+[8.646664] (-) TimerEvent: {}
+[8.698654] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[8.746916] (-) TimerEvent: {}
+[8.847732] (-) TimerEvent: {}
+[8.948449] (-) TimerEvent: {}
+[9.049116] (-) TimerEvent: {}
+[9.149913] (-) TimerEvent: {}
+[9.250668] (-) TimerEvent: {}
+[9.351500] (-) TimerEvent: {}
+[9.452283] (-) TimerEvent: {}
+[9.553026] (-) TimerEvent: {}
+[9.653610] (-) TimerEvent: {}
+[9.754417] (-) TimerEvent: {}
+[9.855067] (-) TimerEvent: {}
+[9.957138] (-) TimerEvent: {}
+[9.985049] (my_bot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.985474] (my_bot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.061180] (-) TimerEvent: {}
+[10.164064] (-) TimerEvent: {}
+[10.207448] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.216678] (my_bot) StdoutLine: {'line': b'-- Configuring done (10.1s)\n'}
+[10.234064] (my_bot) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[10.239717] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/aaron/ros2_ws/build/my_bot\n'}
+[10.260414] (my_bot) CommandEnded: {'returncode': 0}
+[10.264014] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[10.264169] (-) TimerEvent: {}
+[10.264414] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aaron/ros2_ws/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/aaron/ros2_ws/build/my_bot', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'aaron', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2332', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/aaron', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.102.1', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\](onshape_to_robot_env) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'LC_MONETARY': 'es_MX.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/aaron/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/aaron/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'aaron', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/home/aaron/.local/bin:/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/home/aaron/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/aaron/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/aaron/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/AaronPC:@/tmp/.ICE-unix/2166,unix/AaronPC:/tmp/.ICE-unix/2166', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'es_MX.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0.0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/aaron/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f380a2f14ef9134e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/aaron/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3f22dfd38a.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-IVIgaL0PZiR8/agent.2331', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/aaron', 'AMENT_PREFIX_PATH': '/home/aaron/ros2_ws/install/my_bot:/opt/ros/kilted', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'XFCE', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/kilted/share', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '7', 'PWD': '/home/aaron/ros2_ws/build/my_bot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/home/aaron/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/opt/ros/kilted/lib/python3.12/site-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/aaron/ros2_ws/install/my_bot:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted'}), 'shell': False}
+[10.366092] (-) TimerEvent: {}
+[10.442117] (my_bot) CommandEnded: {'returncode': 0}
+[10.444128] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[10.466473] (-) TimerEvent: {}
+[10.469185] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aaron/ros2_ws/build/my_bot'], 'cwd': '/home/aaron/ros2_ws/build/my_bot', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'aaron', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2332', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/aaron', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.102.1', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\](onshape_to_robot_env) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'LC_MONETARY': 'es_MX.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/aaron/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/aaron/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'aaron', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/home/aaron/.local/bin:/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/home/aaron/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/aaron/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/aaron/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/AaronPC:@/tmp/.ICE-unix/2166,unix/AaronPC:/tmp/.ICE-unix/2166', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'es_MX.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0.0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/aaron/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f380a2f14ef9134e.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/aaron/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3f22dfd38a.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-IVIgaL0PZiR8/agent.2331', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/aaron', 'AMENT_PREFIX_PATH': '/home/aaron/ros2_ws/install/my_bot:/opt/ros/kilted', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'XFCE', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/kilted/share', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '7', 'PWD': '/home/aaron/ros2_ws/build/my_bot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/home/aaron/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/opt/ros/kilted/lib/python3.12/site-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/aaron/ros2_ws/install/my_bot:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted'}), 'shell': False}
+[10.495583] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.496201] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/config\n'}
+[10.498405] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[10.498770] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/config/rviz_config.rviz\n'}
+[10.499075] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description\n'}
+[10.499406] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/urdf\n'}
+[10.499815] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/urdf/config.json\n'}
+[10.500903] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/urdf/robot.urdf.xacro\n'}
+[10.501450] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/urdf/robot.urdf\n'}
+[10.501759] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes\n'}
+[10.502113] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link2.stl\n'}
+[10.502494] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link3.part\n'}
+[10.503011] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link2.part\n'}
+[10.504192] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link1.stl\n'}
+[10.505318] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link6.part\n'}
+[10.505872] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link1.part\n'}
+[10.506775] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link45.part\n'}
+[10.507631] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link45.stl\n'}
+[10.510357] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link6.stl\n'}
+[10.511659] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/platform.part\n'}
+[10.512505] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/platform.stl\n'}
+[10.515977] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link3.stl\n'}
+[10.518012] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/launch\n'}
+[10.518566] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[10.518805] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/worlds\n'}
+[10.519018] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[10.519582] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[10.520065] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[10.520427] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[10.520788] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[10.521153] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[10.521487] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[10.522091] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[10.522555] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[10.522877] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[10.523301] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[10.523593] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[10.524146] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[10.524667] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[10.525031] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[10.528041] (my_bot) StdoutLine: {'line': b'-- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/package.xml\n'}
+[10.529865] (my_bot) CommandEnded: {'returncode': 0}
+[10.566767] (-) TimerEvent: {}
+[10.570258] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[10.572018] (-) EventReactorShutdown: {}

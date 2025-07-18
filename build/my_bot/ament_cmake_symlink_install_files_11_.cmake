@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/aaron/ros2_ws" FILES "/home/aaron/ros2_ws/build/my_bot/ament_cmake_index/share/ament_index/resource_index/packages/my_bot" "DESTINATION" "share/ament_index/resource_index/packages")

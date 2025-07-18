@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/aaron/ros2_ws" FILES "/home/aaron/ros2_ws/build/my_bot/ament_cmake_core/my_botConfig.cmake" "/home/aaron/ros2_ws/build/my_bot/ament_cmake_core/my_botConfig-version.cmake" "DESTINATION" "share/my_bot/cmake")

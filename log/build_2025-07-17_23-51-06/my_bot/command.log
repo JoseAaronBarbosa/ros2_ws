@@ -1,0 +1,6 @@
+Invoking command in '/home/aaron/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake /home/aaron/ros2_ws -DCMAKE_INSTALL_PREFIX=/home/aaron/ros2_ws/install/my_bot
+Invoked command in '/home/aaron/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake /home/aaron/ros2_ws -DCMAKE_INSTALL_PREFIX=/home/aaron/ros2_ws/install/my_bot
+Invoking command in '/home/aaron/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/aaron/ros2_ws/build/my_bot -- -j4 -l4
+Invoked command in '/home/aaron/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/aaron/ros2_ws/build/my_bot -- -j4 -l4
+Invoking command in '/home/aaron/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/aaron/ros2_ws/build/my_bot
+Invoked command in '/home/aaron/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/aaron/ros2_ws/build/my_bot

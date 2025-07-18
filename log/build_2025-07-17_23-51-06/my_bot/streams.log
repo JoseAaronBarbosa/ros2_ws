@@ -1,0 +1,78 @@
+[0.036s] Invoking command in '/home/aaron/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake /home/aaron/ros2_ws -DCMAKE_INSTALL_PREFIX=/home/aaron/ros2_ws/install/my_bot
+[0.835s] -- The C compiler identification is GNU 13.3.0
+[1.332s] -- The CXX compiler identification is GNU 13.3.0
+[1.460s] -- Detecting C compiler ABI info
+[2.465s] -- Detecting C compiler ABI info - done
+[2.544s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.547s] -- Detecting C compile features
+[2.548s] -- Detecting C compile features - done
+[2.640s] -- Detecting CXX compiler ABI info
+[3.443s] -- Detecting CXX compiler ABI info - done
+[3.513s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.513s] -- Detecting CXX compile features
+[3.525s] -- Detecting CXX compile features - done
+[3.637s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[4.447s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.800s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[5.199s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.752s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.752s] -- Configured cppcheck include dirs: 
+[6.752s] -- Configured cppcheck exclude dirs and/or files: 
+[8.029s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.029s] -- Configured cpplint exclude dirs and/or files: 
+[8.208s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.208s] -- Configured 'flake8' exclude dirs and/or files: 
+[8.528s] -- Added test 'lint_cmake' to check CMake code style
+[8.696s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.982s] -- Added test 'uncrustify' to check C / C++ code style
+[9.982s] -- Configured uncrustify additional arguments: 
+[10.205s] -- Added test 'xmllint' to check XML markup files
+[10.214s] -- Configuring done (10.1s)
+[10.231s] -- Generating done (0.0s)
+[10.237s] -- Build files have been written to: /home/aaron/ros2_ws/build/my_bot
+[10.258s] Invoked command in '/home/aaron/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake /home/aaron/ros2_ws -DCMAKE_INSTALL_PREFIX=/home/aaron/ros2_ws/install/my_bot
+[10.262s] Invoking command in '/home/aaron/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/aaron/ros2_ws/build/my_bot -- -j4 -l4
+[10.439s] Invoked command in '/home/aaron/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/aaron/ros2_ws/build/my_bot -- -j4 -l4
+[10.469s] Invoking command in '/home/aaron/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/aaron/ros2_ws/build/my_bot
+[10.493s] -- Install configuration: ""
+[10.495s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/config
+[10.495s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml
+[10.496s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/config/rviz_config.rviz
+[10.496s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description
+[10.496s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/urdf
+[10.497s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/urdf/config.json
+[10.498s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/urdf/robot.urdf.xacro
+[10.498s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/urdf/robot.urdf
+[10.499s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes
+[10.499s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link2.stl
+[10.499s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link3.part
+[10.500s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link2.part
+[10.501s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link1.stl
+[10.502s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link6.part
+[10.503s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link1.part
+[10.504s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link45.part
+[10.505s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link45.stl
+[10.507s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link6.stl
+[10.509s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/platform.part
+[10.509s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/platform.stl
+[10.513s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/description/meshes/link3.stl
+[10.515s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/launch
+[10.515s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[10.516s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/worlds
+[10.516s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world
+[10.517s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[10.517s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[10.517s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[10.518s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[10.518s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/environment/path.sh
+[10.518s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv
+[10.519s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/local_setup.bash
+[10.519s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/local_setup.sh
+[10.520s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh
+[10.520s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv
+[10.521s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/package.dsv
+[10.521s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[10.522s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[10.522s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[10.525s] -- Installing: /home/aaron/ros2_ws/install/my_bot/share/my_bot/package.xml
+[10.528s] Invoked command in '/home/aaron/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/aaron/ros2_ws/build/my_bot
